@@ -10,7 +10,6 @@ service /numbers on new http:Listener(9090) {
         if (number % 2 == 0) {
             return false;
         }
-
         return true;
 
     }
